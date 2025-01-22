@@ -10,9 +10,9 @@
   </head>
   <body>
     <nav>
-      <div class="max-w-[1440px] mx-auto">
+      <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-9 md:px-8 px-4">
         <div
-          class="flex md:py-6 py-4 lg:justify-between justify-center lg:flex-nowrap flex-wrap xl:px-12 lg:px-9 md:px-8 px-4 items-center gap-4"
+          class="flex md:py-6 py-4 lg:justify-between justify-center lg:flex-nowrap flex-wrap items-center gap-4"
         >
           <div
             class="flex items-center md:gap-16 gap-4 md:flex-nowrap flex-wrap justify-center"
@@ -21,14 +21,28 @@
               ><img src="./assets/image/Logo.png" alt="logo" width="100%"
             /></a>
             <div class="flex lg:gap-11 md:gap-8 gap-4">
-              <a class="font-medium" href="#">Home</a>
-              <a class="font-medium opacity-[0.7]" href="#">About Us</a>
-              <a class="font-medium opacity-[0.7]" href="#">Products</a>
-              <a class="font-medium opacity-[0.7]" href="#">Sales</a>
+              <a class="font-medium duration-300 hover:text-red-600" href="#"
+                >Home</a
+              >
+              <a
+                class="font-medium opacity-[0.7] duration-300 hover:text-red-600"
+                href="#"
+                >About Us</a
+              >
+              <a
+                class="font-medium opacity-[0.7] duration-300 hover:text-red-600"
+                href="#"
+                >Products</a
+              >
+              <a
+                class="font-medium opacity-[0.7] duration-300 hover:text-red-600"
+                href="#"
+                >Sales</a
+              >
             </div>
           </div>
           <div class="flex xl:gap-11 md:gap-8 gap-4 items-center lg:pt-0">
-            <a href="#"
+            <a class="duration-300 group" href="#"
               ><svg
                 width="19"
                 height="19"
@@ -39,10 +53,11 @@
                 <path
                   d="M8 16C9.77498 15.9996 11.4988 15.4054 12.897 14.312L17.293 18.708L18.707 17.294L14.311 12.898C15.405 11.4997 15.9996 9.77544 16 8C16 3.589 12.411 0 8 0C3.589 0 0 3.589 0 8C0 12.411 3.589 16 8 16ZM8 2C11.309 2 14 4.691 14 8C14 11.309 11.309 14 8 14C4.691 14 2 11.309 2 8C2 4.691 4.691 2 8 2Z"
                   fill="black"
+                  class="group-hover:fill-red-600 duration-300"
                 />
               </svg>
             </a>
-            <a href="#"
+            <a class="group" href="#"
               ><svg
                 width="22"
                 height="24"
@@ -57,6 +72,7 @@
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
+                    class="group-hover:stroke-red-600 duration-300"
                   />
                   <path
                     d="M15.705 10.8175V5.36331C15.705 4.20609 15.2453 3.09626 14.427 2.27798C13.6087 1.4597 12.4989 1 11.3416 1C10.1844 1 9.0746 1.4597 8.25632 2.27798C7.43804 3.09626 6.97833 4.20609 6.97833 5.36331V10.8175"
@@ -64,13 +80,18 @@
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
+                    class="group-hover:stroke-red-600 duration-300"
                   />
                 </g>
               </svg>
             </a>
-            <a class="text-sm font-medium" href="#">Log In</a>
             <a
-              class="md:py-2.5 md:px-6 py-1.5 px-5 bg-red-600 text-white text-sm font-medium border border-red-600"
+              class="text-sm font-medium duration-300 hover:text-red-600"
+              href="#"
+              >Log In</a
+            >
+            <a
+              class="md:py-2.5 md:px-6 py-1.5 px-5 bg-red-600 text-white text-sm font-medium border border-red-600 duration-1000 hover:bg-white hover:text-red-600"
               href="#"
               >Sign Up</a
             >
@@ -78,5 +99,54 @@
         </div>
       </div>
     </nav>
+    <!-- ----------hero----section------------- -->
+    <section>
+      <div
+        class="bg-[url('./assets/image/Hero_Image.jpg')] bg-cover bg-no-repeat"
+      >
+        <div class="max-w-[1440px] mx-auto xl:px-12 lg:px-9 md:px-8 px-4">
+          <h1
+            class="xl:text-7xl lg:5xl md:4xl 3xl playfair pt-[238px] !leading-[105%] max-w-[645px] pb-12 ps-5"
+          >
+            Vehicula <span class="text-red-700">tellus ipsum</span> arcu viverra
+          </h1>
+          <p class="max-w-[580px] opacity-[0.8] pb-16 text-2xl">
+            Feugiat quis et platea nunc. Enim, a donec odio ullamcorper mauris
+            penatibus et.
+          </p>
+          <div class="flex items-center gap-6 pb-[242px]">
+            <a
+              class="flex gap-3 items-center bg-red-700 py-4 px-8 text-white"
+              href="#"
+              >Shop Now
+              <span
+                ><svg
+                  width="20"
+                  height="14"
+                  viewBox="0 0 20 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 6.99997L19 6.99997"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.75 1.74997L19 6.99997L13.75 12.25"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg> </span
+            ></a>
+            <p class="leading-[105%] opacity-[0.6] text-xl">See Collections</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
