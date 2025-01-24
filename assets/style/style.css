@@ -4,3 +4,4 @@ body {
 .playfair {
   font-family: "Playfair Display", serif;
 }
+.shadow-2:hover{box-shadow: 0px 3px 20px 3px rgb(187, 185, 185);}
